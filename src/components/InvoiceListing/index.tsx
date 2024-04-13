@@ -29,7 +29,7 @@ const InvoiceListing = () => {
       {data.length > 0 ? 
       (<div className="pagination">
         <span className="pagination-btn" onClick={() => setPageHandler(page - 1)}>Prev</span>
-        {[...Array((data?.length || 0 / PAGINATION_LENGTH))].map((_, index) => <span className="pagination-btn" key={index + 1} onClick={() => setPageHandler(index + 1)}>{index + 1}</span>)}
+        {[...Array((data?.length || 0) / PAGINATION_LENGTH)].map((_, index) => <span className="pagination-btn" key={index + 1} onClick={() => setPageHandler(index + 1)}>{index + 1}</span>)}
         <span className="pagination-btn" onClick={() => () => setPageHandler(page + 1)}>Next</span>
       </div>) : null}
     </div>
