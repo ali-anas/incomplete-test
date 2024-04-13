@@ -1,128 +1,134 @@
-export default [
+export const data =  [
   {
     id: "1",
-    date: "20202212",
+    date: "2020-01-05",
     invoiceNumber: 1,
     customerName: "xyz",
     billingAddress: "xyz",
     shippingAdderess: "xyz",
     gstin: "123124",
-    items: {
+    items: [{
       id: "1",
       itemName: "abc",
       quantity: "3",
       price: 50,
       amount: 56,
-    },
-    billSundrys: {
+    }],
+    billSundrys: [{
       id: "2",
       billSundryName: "sdsad",
       amount: "30",
-    },
+    }],
+    totalAmount: 20,
   },
   {
     id: "2",
-    date: "20202212",
+    date: "2020-01-05",
     invoiceNumber: 1,
     customerName: "xyz",
     billingAddress: "xyz",
     shippingAdderess: "xyz",
     gstin: "123124",
-    items: {
+    items: [{
       id: "1",
       itemName: "abc",
       quantity: "3",
       price: 50,
       amount: 56,
-    },
-    billSundrys: {
+    }],
+    billSundrys: [{
       id: "2",
       billSundryName: "sdsad",
       amount: "30",
-    },
+    }],
+    totalAmount: 20,
   },
   {
     id: "3",
-    date: "20202212",
+    date: "2020-01-05",
     invoiceNumber: 1,
     customerName: "xyz",
     billingAddress: "xyz",
     shippingAdderess: "xyz",
     gstin: "123124",
-    items: {
+    items: [{
       id: "1",
       itemName: "abc",
       quantity: "3",
       price: 50,
       amount: 56,
-    },
-    billSundrys: {
+    }],
+    billSundrys: [{
       id: "2",
       billSundryName: "sdsad",
       amount: "30",
-    },
+    }],
+    totalAmount: 20,
   },
   {
     id: "4",
-    date: "20202212",
+    date: "2020-01-05",
     invoiceNumber: 1,
     customerName: "xyz",
     billingAddress: "xyz",
     shippingAdderess: "xyz",
     gstin: "123124",
-    items: {
+    items: [{
       id: "1",
       itemName: "abc",
       quantity: "3",
       price: 50,
       amount: 56,
-    },
-    billSundrys: {
+    }],
+    billSundrys: [{
       id: "2",
       billSundryName: "sdsad",
       amount: "30",
-    },
+    }],
+    totalAmount: 20,
   },
   {
     id: "5",
-    date: "20202212",
+    date: "2020-01-05",
     invoiceNumber: 1,
     customerName: "xyz",
     billingAddress: "xyz",
     shippingAdderess: "xyz",
     gstin: "123124",
-    items: {
+    items: [{
       id: "1",
       itemName: "abc",
       quantity: "3",
       price: 50,
       amount: 56,
-    },
-    billSundrys: {
+    }],
+    billSundrys: [{
       id: "2",
       billSundryName: "sdsad",
       amount: "30",
-    },
+    }],
+    totalAmount: 20,
   },
   {
     id: "6",
-    date: "20202212",
+    date: "2020-01-05",
     invoiceNumber: 1,
     customerName: "xyz",
     billingAddress: "xyz",
     shippingAdderess: "xyz",
     gstin: "123124",
-    items: {
+    items: [{
       id: "1",
       itemName: "abc",
       quantity: "3",
       price: 50,
       amount: 56,
-    },
-    billSundrys: {
+    }],
+    billSundrys: [{
       id: "2",
       billSundryName: "sdsad",
       amount: "30",
-    },
+    }],
+    totalAmount: 20,
   },
-]
+];
